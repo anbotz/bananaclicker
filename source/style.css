@@ -1,0 +1,272 @@
+
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("Gorilla.ttf");
+}
+  
+body {
+    font-family: "Bitstream Vera Serif Bold", serif;
+    background: no-repeat url("yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg") center/100%;
+} 
+
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  
+}
+
+
+.Corps{
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+}
+.Colonne{
+    display: flex;
+ 
+    flex-direction: column;
+
+    inline-size: 33%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ClickerCentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgba(128, 0, 0, 0) ;
+    inline-size: 33%;
+    margin: 10px;
+    padding: 10px;
+ 
+}
+.Banane
+{
+	width: 200px;
+    height: 200px; 
+}
+
+img {
+    -webkit-filter: drop-shadow(1px 1px 1px #222 );
+    filter: drop-shadow(1px 1px 1px #222);
+  }
+.Banane:active{
+    width: 210px;
+    height: 210px;
+}
+
+.ButtonRecrue{
+    display: flex;
+        flex-direction: center;
+    align-content: center;
+    font-family: "Bitstream Vera Serif Bold", serif;
+    background-color: rgba(128, 0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 10px;
+    height: 25px;
+    min-width: 25px;
+    cursor: pointer;
+
+}
+.ButtonRecrue:active {
+    background-color: none;
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+    font-family: "Bitstream Vera Serif Bold", serif;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    height: 25px;
+    min-width: 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Conteneur
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 217, 0);
+    padding: 0px 10px 0 10px;
+    border-radius: 10px;
+    margin: 2px;
+    /* haut | droit | bas | gauche */
+
+    height: 25px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+
+    
+}
+
+
+.ConteneurText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 217, 0);
+    padding: 0px 10px 0 10px;
+    border-radius: 10px;
+    margin: 2px;
+    /* haut | droit | bas | gauche */
+ 
+    min-height: 100px;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+    
+
+}
+
+.ConteneurTextConsignes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    
+    background-color: rgb(255, 217, 0);
+    border-radius: 10px;
+    margin: 2px;
+    /* haut | droit | bas | gauche */
+    padding: 0px 10px 0 10px;
+    min-height: 250px;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+
+}
+.Logo
+{
+	width: 20px;
+    height: 20px;    
+}
+
+/**/
+.Titre{
+    height: 100px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 217, 0);
+    padding: 0px 10px 0 10px;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+
+    
+}
+.BananeTitre{
+	width: 100px;
+    height: 100px;
+}
+
+.Tete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.Recrues{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    background-color: rgb(255, 217, 0);
+    border-radius: 10px;
+    margin: 2px;
+    /* haut | droit | bas | gauche */
+    padding: 10px 10px 10px 10px;
+    min-height: 250px;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.75);
+}
+
+.TitreCompteur{
+    display: flex;
+
+
+}
+.CompteurCompteur{
+    display: flex;
+    display: flex-end;
+    align-items: center;
+
+
+}
+.Compteur{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    height: 25px; 
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+}
+.BoutonRecrutement{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 200px;
+    min-height: 110px;
+
+
+}
+.Recruter{
+    width: 100px;
+    height: 100px; 
+}
+
+.Recruter:active{
+    width: 105px;
+    height: 105px; 
+}
+
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    -webkit-filter: drop-shadow(2px 2px 2px #222 );
+    filter: drop-shadow(2px 2px 2px #222);
+}
+.Container{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
